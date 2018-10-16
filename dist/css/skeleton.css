@@ -53,10 +53,14 @@
 .column,
 .columns {
   width: 100%;
-  float: left;
+  float: right;
   box-sizing: border-box;
 }
 
+.column[lang="en"],
+.columns[lang="en"] {
+  float: left;
+}
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
@@ -71,14 +75,24 @@
     width: 80%;
   }
 
+
   .column,
   .columns {
+    margin-right: 4%;
+  }
+  .column[lang="en"],
+  .columns[lang="en"] {
+    margin-right: 0;
     margin-left: 4%;
   }
 
+  .column:first-child[lang="en"],
+  .columns:first-child[lang="en"] {
+    margin-left: 0;
+  }
   .column:first-child,
   .columns:first-child {
-    margin-left: 0;
+    margin-right: 0;
   }
 
   .one.column,
@@ -228,8 +242,7 @@ html {
 
 body {
   font-size: 1.5em;
-  /* currently ems cause chrome bug misinterpreting rems on body element */
-  
+  /* currently ems cause chrome bug misinterpreting rems on body element */ 
   font-weight: 400;
   font-family: irSans, Helvetica, Arial, sans-serif;
   color: #222;
@@ -490,7 +503,7 @@ input[type="radio"] {
 
 label>.label-body {
   display: inline-block;
-  margin-left: .5rem;
+  margin-right: .5rem;
   font-weight: normal;
 }
 
@@ -499,6 +512,7 @@ label>.label-body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
   list-style: circle inside;
+  float: right;
 }
 
 ol {
@@ -507,7 +521,7 @@ ol {
 
 ol,
 ul {
-  padding-left: 0;
+  padding-right: 0;
   margin-top: 0;
 }
 
@@ -517,10 +531,14 @@ ol ol,
 ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%;
+
 }
 
 li {
   margin-bottom: 1rem;
+  float: right;
+  direction: rtl;
+  
 }
 
 
@@ -534,6 +552,8 @@ code {
   background: #F1F1F1;
   border: 1px solid #E1E1E1;
   border-radius: 4px;
+  direction: ltr;
+  text-align: left;
 }
 
 pre>code {
@@ -548,18 +568,18 @@ pre>code {
 th,
 td {
   padding: 12px 15px;
-  text-align: left;
+  text-align: right;
   border-bottom: 1px solid #E1E1E1;
 }
 
 th:first-child,
 td:first-child {
-  padding-left: 0;
+  padding-right: 0;
 }
 
 th:last-child,
 td:last-child {
-  padding-right: 0;
+  padding-left: 0;
 }
 
 
@@ -603,11 +623,11 @@ form {
 }
 
 .u-pull-right {
-  float: right;
+  float: left;
 }
 
 .u-pull-left {
-  float: left;
+  float: right;
 }
 
 
