@@ -43,7 +43,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <section class="header">
-      <h2 class="title">یک ساختار آماده خیلی ساده‌ و ریسپانسیو</h2>
+      <h2 class="title">یک ساختار آماده ساده‌ و واکنش‌گرا</h2>
       <a class="button button-primary" href="https://github.com/pharzan/Skeleton/releases/download/2.0.4/Skeleton-2.0.4.zip"
         onClick="_gaq.push(['_trackEvent', 'skeleton', 'download'])">دانلود</a>
       <div class="value-props row">
@@ -257,26 +257,33 @@
     <!-- Typography -->
     <div class="docs-section" id="typography">
       <h5 class="">تایپوگرافی</h5>
-      <p>Type is all set with the <code>rems</code>, so font-sizes and spacial relationships can be responsively sized
-        based on a single <code>&lt;html&gt;</code> font-size property. Out of the box, Skeleton never changes the
-        <code>&lt;html&gt;</code> font-size, but it's there in case you need it for your project. All measurements are
-        still base 10 though so, an <code>&lt;h1&gt;</code> with <code>5.0rem</code>font-size just means <code>50px</code>.</p>
+      <p>تایپوگرافی و اندازه فونت‌ها از قبل برای شما آماده شده و بصورت اتوماتیک با استفاده از تگ‌های مربوطه سایز خود را تغییر
+      میدهند. همه اندازه فونت‌ها بر مبنای ۱۰ هستند و مثلاً تگ <code>&lt;h1&gt;</code> با اندازه <code>5.0rem</code> معادل با
+      <code>50px</code> خواهد بود. در نظر داشته باشید که تمام اندازه ها با <code>rems</code> تعریف شده‌اند.</p>
       <div class="docs-example">
         <div class="row">
           <div class="six columns">
-            <p><strong>The typography base</strong> is <a href="http://www.google.com/fonts/specimen/Raleway">Raleway</a>
-              served by Google, set at 15rem (15px) over a 1.6 line height (24px). Other type basics like <a href="#">anchors</a>,
-              <strong>strong</strong>, <em>emphasis</em>, and <u>underline</u> are all obviously included.</p>
-            <p><strong>Headings</strong> create a family of distinct sizes each with specific <code>letter-spacing</code>,
-              <code>line-height</code>, and <code>margins</code>.</p>
+            <p>
+              <strong>بیس تایپوگرافی فارسی</strong><a href="http://fontiran.com/%D8%AE%D8%A7%D9%86%D9%88%D8%A7%D8%AF%D9%87-%D9%81%D9%88%D9%86%D8%AA-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%B3%D9%86-%D8%B3%D8%B1%DB%8C%D9%81-iran-sans-%D9%BE%D9%86%D8%AC-%D9%88%D8%B2%D9%86-%D9%87%D9%85/">ایران
+                سنس</a> است. اگر قصد استفاده از این فونت را در پروژه‌های تجاری خود دارید نیاز به تهیه لایسنس مناسب پروژه‌تان است.
+              برای تگ‌های با <code>lang = en</code> از فونت <a href="http://www.google.com/fonts/specimen/Raleway">Raleway</a> استفاده شده است.
+            </p>
           </div>
           <div class="six columns">
-            <h1>Heading<span class="heading-font-size"> <code>&lt;h1&gt;</code> 50rem</span></h1>
-            <h2>Heading<span class="heading-font-size"> <code>&lt;h2&gt;</code> 42rem</span></h2>
-            <h3>Heading<span class="heading-font-size"> <code>&lt;h3&gt;</code> 36rem</span></h3>
-            <h4>Heading<span class="heading-font-size"> <code>&lt;h4&gt;</code> 30rem</span></h4>
-            <h5>Heading<span class="heading-font-size"> <code>&lt;h5&gt;</code> 24rem</span></h5>
-            <h6>Heading<span class="heading-font-size"> <code>&lt;h6&gt;</code> 15rem</span></h6>
+            <h1 >تیتر</h1>
+            <h2 >تیتر</h2>
+            <h3 >تیتر</h3>
+            <h4 >تیتر</h4>
+            <h5 >تیتر</h5>
+            <h6 >تیتر</h6>
+          </div>
+          <div class="six columns">
+            <h1 lang="en">Heading<span class="heading-font-size"> <code>&lt;h1&gt;</code> 50rem</span></h1>
+            <h2 lang="en">Heading<span class="heading-font-size"> <code>&lt;h2&gt;</code> 42rem</span></h2>
+            <h3 lang="en">Heading<span class="heading-font-size"> <code>&lt;h3&gt;</code> 36rem</span></h3>
+            <h4 lang="en">Heading<span class="heading-font-size"> <code>&lt;h4&gt;</code> 30rem</span></h4>
+            <h5 lang="en">Heading<span class="heading-font-size"> <code>&lt;h5&gt;</code> 24rem</span></h5>
+            <h6 lang="en">Heading<span class="heading-font-size"> <code>&lt;h6&gt;</code> 15rem</span></h6>
           </div>
         </div>
       </div>
@@ -354,8 +361,8 @@
     <div class="docs-section" id="forms">
       <h5 class="">فرم‌ها</h5>
       <p>
-       استفاده از فرم‌ها در طراحی‌های واکنشگرا به همراه دردسر است، این استایل‌ها کار را کمی راحت‌تر میکنند.
-       تمامی المان‌های فرم با ارتفاع متناسبی طراحی شده‌اند و کنار هم و همچنین بر روی همدیگر می توانند قرار بگیرند.
+        استفاده از فرم‌ها در طراحی‌های واکنشگرا به همراه دردسر است، این استایل‌ها کار را کمی راحت‌تر میکنند.
+        تمامی المان‌های فرم با ارتفاع متناسبی طراحی شده‌اند و کنار هم و همچنین بر روی همدیگر می توانند قرار بگیرند.
       </p>
       <div class="docs-example docs-example-forms">
         <form>
