@@ -1,4 +1,4 @@
-# [Skeleton](http://getskeleton.com)
+# [Skeleton](http://getskeleton.ir)
 Skeleton is a simple, responsive boilerplate to kickstart any responsive project.
 
 Check out <http://getskeleton.ir> for documentation and details.
@@ -60,4 +60,4 @@ RTL Skeleton was built using [vscode](https://code.visualstudio.com/). The typef
 ## Acknowledgement
 
 Skeleton was created by [Dave Gamache](https://twitter.com/dhg) for a better web.
-RTL Skeleton is a fork by [Farzan Tinati] (https://github.com/pharzan).
+RTL Skeleton is a fork by [Farzan Tinati](https://github.com/pharzan).
