@@ -1,7 +1,7 @@
 # [Skeleton](http://getskeleton.com)
 Skeleton is a simple, responsive boilerplate to kickstart any responsive project.
 
-Check out <http://getskeleton.com> for documentation and details.
+Check out <http://getskeleton.ir> for documentation and details.
 
 ## Getting started
 
@@ -27,11 +27,12 @@ Skeleton/
 
 ### Why it's awesome
 
-Skeleton is lightweight and simple. It styles only raw HTML elements (with a few exceptions) and provides a responsive grid. Nothing more.
+Skeleton is lightweight and simple.
+It styles only raw HTML elements (with a few exceptions) and provides a responsive grid. Nothing more.
 - Around 400 lines of CSS unminified and with comments
 - It's a starting point, not a UI framework
 - No compiling or installing...just vanilla CSS
-
+- It's a minimal RTL based css framework
 
 ## Browser support
 
@@ -49,20 +50,14 @@ The above list is non-exhaustive. Skeleton works perfectly with almost all older
 All parts of Skeleton are free to use and abuse under the [open-source MIT license](https://github.com/dhg/Skeleton/blob/master/LICENSE.md).
 
 
-## Extensions
-
-The following are extensions to Skeleton built by the community. They are not officially supported, but all have been tested and are compatible with v2.0 (exact release noted):
-- [Skeleton on LESS](https://github.com/whatsnewsaes/Skeleton-less): Skeleton built with LESS for easier replacement of grid, color, and media queries. (Last update was to match v2.0.1)
-- [Skeleton on Sass](https://github.com/whatsnewsaes/Skeleton-Sass): Skeleton built with Sass for easier replacement of grid, color, and media queries. (Last update was to match v2.0.1)
-
-Have an extension you want to see here? Just shoot an email to hi@getskeleton.com with your extension!
-
 
 ## Colophon
+This repository is a fork of [skelton](http://getskeleton.com).
+RTL Skeleton was built using [vscode](https://code.visualstudio.com/). The typeface [IranSans](http://fontiran.com/%D8%AE%D8%A7%D9%86%D9%88%D8%A7%D8%AF%D9%87-%D9%81%D9%88%D9%86%D8%AA-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%B3%D9%86-%D8%B3%D8%B1%DB%8C%D9%81-iran-sans-%D9%BE%D9%86%D8%AC-%D9%88%D8%B2%D9%86-%D9%87%D9%85/) was created by [Moslem Ebrahimi](http://fontiran.com). Code highlighting by Google's [Prettify library](https://code.google.com/p/google-code-prettify/). Icons in the header of the documentation are all derivative work of icons from [The Noun Project](http://thenounproject.com). [Feather](http://thenounproject.com/term/feather/22073) by Zach VanDeHey, [Pen](http://thenounproject.com/term/pen/21163) (with cap) by Ed Harrison, [Pen](http://thenounproject.com/term/pen/32847) (with clicker) by Matthew Hall, and [Watch](http://thenounproject.com/term/watch/48015) by Julien Deveaux.
 
-Skeleton was built using [Sublime Text 3](http://www.sublimetext.com/3) and designed with [Sketch](http://bohemiancoding.com/sketch). The typeface [Raleway](http://www.google.com/fonts/specimen/Raleway) was created by [Matt McInerney](http://matt.cc/) and [Pablo Impallari](http://www.impallari.com/). Code highlighting by Google's [Prettify library](https://code.google.com/p/google-code-prettify/). Icons in the header of the documentation are all derivative work of icons from [The Noun Project](http://thenounproject.com). [Feather](http://thenounproject.com/term/feather/22073) by Zach VanDeHey, [Pen](http://thenounproject.com/term/pen/21163) (with cap) by Ed Harrison, [Pen](http://thenounproject.com/term/pen/32847) (with clicker) by Matthew Hall, and [Watch](http://thenounproject.com/term/watch/48015) by Julien Deveaux.
 
 
 ## Acknowledgement
 
 Skeleton was created by [Dave Gamache](https://twitter.com/dhg) for a better web.
+RTL Skeleton is a fork by [Farzan Tinati] (https://github.com/pharzan).
