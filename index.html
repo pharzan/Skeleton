@@ -6,9 +6,9 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Skeleton: Responsive CSS Boilerplate</title>
-  <meta name="description" content="">
-  <meta name="author" content="فرزان طینتی">
+  <title>Skeleton: Responsive RTL CSS Boilerplate</title>
+  <meta name="description" content="A dead simple RTL CSS boilerplate">
+  <meta name="author" content="Farzan Tinati">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -49,16 +49,16 @@
       <div class="value-props row">
         <div class="four columns value-prop">
           <img class="value-img" src="images/feather.svg">
-          به سبکی پر و ‌نوشته شده در کمتر از چهارصد سطر با در نظر گرفتن موبایل
+          به سبکی پر، کمتر از چهارصد سطر با طراحی واکنش‌گرا
         </div>
         <div class="four columns value-prop">
           <img class="value-img" src="images/pens.svg">
 
-          استایل‌ها بعنوان یک مبدا برای شروع طراحی شده‌اند و یک فریم ورک نیست
+          یک مبدا برای شروع استایل‌ها
         </div>
         <div class="four columns value-prop">
           <img class="value-img" src="images/watch.svg">
-          شروع سریع بدون نیاز به کامپایل یا نصب
+          پیاده‌سازی سریع بدون نیاز به کامپایل و نصب
         </div>
       </div>
     </section>
@@ -140,7 +140,7 @@
         اگر یک پروژه کوچک شروع میکنید و یا احساس میکنید به ابزار فریم ورک‌های بزرگتر نیاز
         ندارید میتونید از اسکلت استفاده کنید. اسکلت حاوی المان‌های استاندارد اچ‌ تی ام ال به همراه یک سیستم گرید مناسب
         برای صفحه آرایی است.
-        در حقیقت این سایت با اسکلت ساخته شده و کمتر از ۲۰۰ خط سی اس اس دارد.
+         این صفحه با اسکلت ساخته شده و کمتر از ۲۰۰ خط سی اس اس دارد.
 
 
       </p>
@@ -163,7 +163,7 @@
       <p>
         گرید یک سیستم جدولی با ۱۲ ستون سیال میباشد. ماکزیمم عرض آن ۹۶۰ پیکسل بوده و نسبت به اندازه مرورگر یا دستگاه
         اندازه گرید بطور خودکار تنظیم میشود.
-        ماکزیمم عرض با یک خط سی اس اس به اندازه دلخواه میتواند در بیاید و سایر المان‌ها بصورت خودکار اندازه خود را وفق
+        ماکزیمم عرض را با یک خط سی اس اس به اندازه دلخواه میتواند در بیاید و سایر المان‌ها بصورت خودکار اندازه خود را وفق
         میدهند. کد ساده است و ایجاد صفحات واکنش‌گرا را بسیار ساده میکند. همین الآن امتحان کنید و اندازه مرورگرتان را
         تغییر دهید.
 
@@ -359,7 +359,7 @@
     <div class="docs-section" id="forms">
       <h5 class="">فرم‌ها</h5>
       <p>
-        استفاده از فرم‌ها در طراحی‌های واکنشگرا به همراه دردسر است، این استایل‌ها کار را کمی راحت‌تر میکنند.
+        استفاده از فرم‌ها در طراحی‌های واکنشگرا به معمولا دردسر دارد، این استایل‌ها کار را کمی راحت‌تر میکنند.
         تمامی المان‌های فرم با ارتفاع متناسبی طراحی شده‌اند و کنار هم و همچنین بر روی همدیگر می توانند قرار بگیرند.
       </p>
       <div class="docs-example docs-example-forms">
@@ -445,15 +445,15 @@
         </div>
         <div class="six columns">
           <ol>
-            <li>Ordered lists also have basic styles</li>
+            <li>لیست‌ها هم استایل ساده دارند</li>
             <li>
-              They use the decimal list style
+              این یک لیست با ترتیب هست
               <ul>
-                <li>Ordered and unordered can be nested</li>
-                <li>Can nest either type of list into the other</li>
+                <li>لیست‌ها را میتونیم بصورت تو در تو در بیاوریم </li>
+                <li>هر کدام رو میتونیم به شکل دلخواه تو در تو بنویسیم</li>
               </ul>
             </li>
-            <li>Last list item just for the fun</li>
+            <li>این هم عضو آخر لیست</li>
           </ol>
         </div>
       </div>
@@ -484,8 +484,10 @@
     <!-- Code -->
     <div class="docs-section" id="code">
       <h5 class="">تکه کد</h5>
-      <p>Code styling is kept basic – just wrap anything in a <code>&lt;code&gt;</code> and it will appear like <code>this</code>.
-        For blocks of code, wrap a <code>&lt;code&gt;</code> with a <code>&lt;pre&gt;</code>.</p>
+        <p>
+          برای بلوک‌ها و تکه‌های کد از<code>&lt;code&gt;</code> میتونیم استفاده کنیم.
+
+        </p>
       <div class="docs-example">
         <pre><code>.some-class {
   background-color: red;
@@ -510,30 +512,32 @@
     <!-- Tables -->
     <div class="docs-section" id="tables">
       <h5 class="docs-header">جدول‌ها</h5>
-      <p>Be sure to use properly formed table markup with <code>&lt;thead&gt;</code> and <code>&lt;tbody&gt;</code>
-        when building a <code>table</code>.</p>
+      <p>
+        موقع ایجاد جدول فقط از رعایت ساختار تگ‌های اچ تی ام ال جداول مطمئن باشید.
+      </p>
+
       <div class="docs-example">
         <table class="u-full-width">
           <thead>
             <tr>
-              <th>Name</th>
-              <th>Age</th>
-              <th>Sex</th>
-              <th>Location</th>
+              <th>نام</th>
+              <th>سن</th>
+              <th>جنسیت</th>
+              <th>محل سکونت</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Dave Gamache</td>
-              <td>26</td>
-              <td>Male</td>
-              <td>San Francisco</td>
+              <td>فرزان طینتی</td>
+              <td>۳۲</td>
+              <td>مرد</td>
+              <td>ایران</td>
             </tr>
             <tr>
-              <td>Dwayne Johnson</td>
-              <td>42</td>
-              <td>Male</td>
-              <td>Hayward</td>
+              <td>لورم ایپسوم</td>
+              <td>۴۲</td>
+              <td>زن</td>
+              <td>خارج</td>
             </tr>
           </tbody>
         </table>
@@ -575,24 +579,26 @@
 
     <!-- Queries -->
     <div class="docs-section" id="queries">
-      <h5 class="">Media queries</h5>
-      <p>Skeleton uses media queries to serve its scalable grid, but also has a list of queries for convenience of
-        styling your site across devices. The queries are mobile-first, meaning they target <code>min-width</code>.
-        Mobile-first queries are how Skeleton's grid is built and is the preferrable method of organizing CSS. It means
-        all styles outside of a query apply to all devices, then larger devices are targeted for enhancement. This
-        prevents small devices from having to parse tons of unused CSS. The sizes for the queries are:</p>
+      <h5 class="">اندازه‌های کوچک‌تر</h5>
+        <p>
+          اسکلت جهت ترتیب دادن و نمایش گرید‌ها و جدول‌ها روی دستگاه‌های مختلف با اندازه صفحه نمایش‌های مختلف از مدیا کوری‌ها استفاده میکند.
+           این کوری‌ها اول موبایل و صفحه‌های کوچک رو در نظر گرفته و نوشته شده‌اند. یعنی اول عرض کوچک را هدف قرار داده‌اند <code>min-width</code>.
+           فقط بخاطر داشته باشید که تمامی استایل‌های خارج از مدیا کوری‌ها به تمام دستگاه‌ها و اندازه‌ها اعمال میشوند.
+           اندازه‌ها به شرح زیر هستند:
+
+        </p>
       <div class="docs-example row">
         <div class="six columns">
           <ul>
-            <li><strong>Desktop HD</strong>: 1200px</li>
-            <li><strong>Desktop</strong>: 1000px</li>
-            <li><strong>Tablet</strong>: 750px</li>
+            <li><strong>دسک‌تاپ اچ دی</strong>: ۱۲۰۰ پیکسل</li>
+            <li><strong>دسک‌تاپ</strong>: ۱۰۰۰ پیکسل</li>
+            <li><strong>تبلت</strong>: ۷۵۰ پیکسل</li>
           </ul>
         </div>
         <div class="six columns">
           <ul>
-            <li><strong>Phablet</strong>: 550px</li>
-            <li><strong>Mobile</strong>: 400px</li>
+            <li><strong>فبلت</strong>: ۵۵۰ پیکسل</li>
+            <li><strong>موبایل</strong>: ۴۰۰ پیکسل</li>
           </ul>
         </div>
       </div>
@@ -629,8 +635,7 @@
     <!-- Utilities and Misc. -->
     <div class="docs-section" id="utilities">
       <h5 class="">ابزارها</h5>
-      <p>Skeleton has a number of small utility classes that act as easy-to-use helpers. Sometimes it's better to use a
-        utility class than create a whole new class just to float an element.</p>
+      <p>اسکلت ابزارهای کوچکی هم برای راحتی کار دارد. گاها استفاده از این کلاس‌ها بجای کلی سی اس اس و یا تغییرات بنیادین کارها را ساده‌تر میکند.</p>
 
 
       <!-- CODE EXAMPLE ———————————————————————————————————————— -->
@@ -673,12 +678,10 @@
           <img class="example-screenshot" src="images/examples/landing.jpg">
         </a>
         <div class="one-half offset-by-one-half column">
-          <h6 class="example-header">Demo Landing Page</h6>
-          <p class="example-description">This template is an example of how easy it can be to create a landing page
-            with just the Skeleton grid and a few custom styles. The entire demo is ~150 lines of CSS including
-            comments (most of which is positioning the phones at the top).</p>
-          <a class="button" href="examples/landing" target="_blank">Demo</a>
-          <a class="button" href="https://github.com/pharzan/Skeleton/tree/gh-pages/examples/landing" target="_blank">Source</a>
+          <h6 class="example-header">صفحه نمونه</h6>
+          <p class="example-description">این یک قالب ساده وبعنوان یک نمونه ایجاد شده است. در این قالب از چند سطر سی اس اس استفاده شده. کل نمونه کمتر از ۱۵۰ سطر است.</p>
+          <a class="button" href="examples/landing" target="_blank">نمونه</a>
+          <a class="button" href="https://github.com/pharzan/Skeleton/tree/gh-pages/examples/landing" target="_blank">متن</a>
         </div>
       </div>
       <div class="row example">
@@ -686,10 +689,8 @@
           <div class="example-screenshot coming-soon"></div>
         </div>
         <div class="one-half offset-by-one-half column">
-          <h6 class="example-header">More Coming Soon!</h6>
-          <p class="example-description">More examples will be added to help anyone get started or more familiar with
-            how Skeleton works. The goal is education. If you're more interested in real, live examples of Skeleton
-            sites, I'll be creating a "Built on Skeleton" list soon!</p>
+          <h6 class="example-header">نمونه‌های بیشتر!</h6>
+          <p class="example-description">نمونه‌های بیشتر در آینده اضافه میشوند. اگر شما ایده‌ایی دارید و یا نمونه‌ایی با اسکلت ساخته‌اید میتوانید ایجا قرار دهید.</p>
         </div>
       </div>
     </div>
